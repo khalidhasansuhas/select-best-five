@@ -22,3 +22,11 @@ document.getElementById('select-renato').addEventListener('click', function(){
 selectByClick('player-renato','select-renato');
 
 })
+document.getElementById('select-marco').addEventListener('click', function(){
+selectByClick('player-marco','select-marco');
+
+})
+document.getElementById('select-vitinha').addEventListener('click', function(){
+selectByClick('player-vitinha','select-vitinha');
+
+})
