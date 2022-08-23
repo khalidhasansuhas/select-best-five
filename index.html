@@ -69,21 +69,21 @@
                         </div>
                         <button id="calculate-player-expense" class="text-white block font-semibold bg-blue-600 w-full py-3">Calculate</button>
                         <div class="flex justify-between my-5 ">
-                            <h5 class="text-white my-auto">player Expenses</h5>
-                            <h5 class="text-white my-auto">$<span>5000</span></h5>
+                            <h5 class="text-white my-auto">Player Expenses</h5>
+                            <h5  class="text-white my-auto">$<span id="player-expense">5000</span></h5>
                         </div>
                         <div class="flex justify-between my-5 ">
                             <h5 class="text-white my-auto">Manager</h5>
-                            <input  class="w-full text-white block p-2 w-24 bg-slate-900 rounded-lg border-2 border-solid border-white" type="text" placeholder="1000">
+                            <input id="manager-expense" class="w-full text-white block p-2 w-24 bg-slate-900 rounded-lg border-2 border-solid border-white" type="text" placeholder="1000">
                         </div>
                         <div class="flex justify-between my-5 ">
                             <h5 class="text-white my-auto">Coach</h5>
-                            <input  class="w-full text-white block p-2 w-24 bg-slate-900 rounded-lg border-2 border-solid border-white" type="text" placeholder="1000">
+                            <input id="coach-expense" class="w-full text-white block p-2 w-24 bg-slate-900 rounded-lg border-2 border-solid border-white" type="text" placeholder="1000">
                         </div>
-                        <button class="text-white block font-semibold bg-blue-600 w-full py-3">Calculate Total</button>
+                        <button id="calculate-total-expense" class="text-white block font-semibold bg-blue-600 w-full py-3">Calculate Total</button>
                         <div class="flex justify-between my-5 ">
-                            <h5 class="text-white my-auto mb-4">player Expenses</h5>
-                            <h5 class="text-white my-auto text-amber-300 mb-4">$<span class="">5000</span></h5>
+                            <h5 class="text-white my-auto mb-4">Total Expenses</h5>
+                            <h5 class=" my-auto text-amber-300 mb-4">$<span id="total-expense">5000</span></h5>
                         </div>
                     </div>
                 </div>
@@ -93,5 +93,7 @@
     </section>
     <script src="js/utilities.js"></script>
     <script src="js/select.js"></script>
+    <script src="js/player-expense.js"></script>
+    <script src="js/total-expense.js"></script>
 </body>
 </html>

@@ -36,7 +36,7 @@ function selectByClick(selectPlayerByClick, player){
 }
 
 
-function getPlayerValueUsingId (elemntId){
+function getInputValueUsingId (elemntId){
     const inputFieldElement = document.getElementById(elemntId);
     const inputFieldElementString = inputFieldElement.value;
     const inputFieldValue = parseInt(inputFieldElementString);
