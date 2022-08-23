@@ -6,7 +6,7 @@ document.getElementById('calculate-total-expense').addEventListener('click',func
     const managerExpense = getInputValueUsingId('manager-expense');
 
     const coachExpense = getInputValueUsingId('coach-expense');
-    
+
     if(playerExpense <= 0){
         alert('Player expense can not be zero')
     }
@@ -14,7 +14,7 @@ document.getElementById('calculate-total-expense').addEventListener('click',func
         alert ('Please fill Manager input with Valid Number');
     }
     else if(isNaN(coachExpense)){
-        alert ('Please FillManager Input with Valid Number')
+        alert ('Please Fill Coach Input with Valid Number')
     }
     else{
         const newTotalExpenses = playerExpense + managerExpense + coachExpense;
