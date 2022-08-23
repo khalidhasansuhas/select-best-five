@@ -34,3 +34,11 @@ function selectByClick(selectPlayerByClick, player){
 
     
 }
+
+
+function getPlayerValueUsingId (elemntId){
+    const inputFieldElement = document.getElementById(elemntId);
+    const inputFieldElementString = inputFieldElement.value;
+    const inputFieldValue = parseInt(inputFieldElementString);
+    return inputFieldValue;
+}
